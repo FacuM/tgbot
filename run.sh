@@ -32,7 +32,6 @@ function sendMessage
 
 # Main
 LAST=""
-COUNT=0
 printf '\n'
 OFFSET=0
 while true
@@ -74,5 +73,4 @@ do
   printf "no updates found."
  fi
  printf '\n'
- COUNT=$(( $COUNT + 1 ))
 done
