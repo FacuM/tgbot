@@ -33,7 +33,6 @@ function sendMessage
 # Main
 LAST=""
 printf '\n'
-OFFSET=0
 while true
 do
  LAST=$(curl -s "https://api.telegram.org/bot""$api_key""/getUpdates" -F offset=$(( $LUID + 1 )))
