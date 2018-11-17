@@ -12,4 +12,4 @@ Edit `run.sh` so that the `api_key` and `allowed_chat_ids` are defined based on 
 
 Once you're done with that, just run it.
 
-bash `run.sh`.
+`bash run.sh`
